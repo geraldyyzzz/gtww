@@ -2,12 +2,15 @@ const wrapper = document.querySelector('.wrapper');
 const question = document.querySelector('.question');
 const yesBtn = document.querySelector('.yes-btn');
 const noBtn = document.querySelector('.no-btn');
+const gifImg = document.querySelector('#gif-img'); 
 
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love Youu syafaaaa cayankk>.<';
+    
+    gifImg.src = 'https://media.tenor.com/kkxWF2DrTRIAAAAj/cat-meme-elgatitolover.gif';
 });
 
 noBtn.addEventListener('mouseover', () => {

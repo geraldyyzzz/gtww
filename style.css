@@ -28,6 +28,9 @@ body {
 }
 
 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
     font-size: 1em;
     color: #FF00FF;
     border: 3px solid transparent;
@@ -39,6 +42,8 @@ h2 {
     font-size: 1em;
     color: #FF00FF;
     margin: 30px 2;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .btn-group {

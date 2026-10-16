@@ -28,8 +28,8 @@ body {
 }
 
 img {
-    width: 280px;
-    height: 280px;
+    width: 290px;
+    height: 290px;
     object-fit: cover;
     font-size: 1em;
     color: #FF00FF;
@@ -41,7 +41,7 @@ img {
 h2 {
     font-size: 1em;
     color: #FF00FF;
-    margin: 40px 2;
+    margin: 50px 2;
     text-align: center;
     padding: 0 30px;
 }
